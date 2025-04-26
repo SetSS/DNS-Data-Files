@@ -5,8 +5,10 @@ To use that list, add this to the `[sources]` section of your
 
     [sources.'public-resolvers']
     urls = ['https://raw.githubusercontent.com/SetSS/DNS-Data-Files/refs/heads/main/dns-crypt2-eu-fast-resolvers.md']
-    minisign_key = 'RWTX7Hx8uhATWqY7jXKxod28czD6reBA8rHwGNPSuyPLkDnhMrvaG2Us'
     cache_file = 'dns-crypt2-eu-fast-resolvers.md'
+    minisign_key = 'RWTX7Hx8uhATWqY7jXKxod28czD6reBA8rHwGNPSuyPLkDnhMrvaG2Us'
+    refresh_delay = 72
+    prefix = ''
 
 --
 
