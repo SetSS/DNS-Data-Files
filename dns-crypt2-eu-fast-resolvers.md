@@ -5,7 +5,7 @@ To use that list, add this to the `[sources]` section of your
 
     [sources.'public-resolvers']
     urls = ['https://gist.githubusercontent.com/SetSS/020df039c0e73225f5aa40ad4e2ec093/raw/780d7aa33bb127bb3a425a7a99d3b96a80498e90/dns-crypt2-eu-fast-resolvers.md']
-    minisign_key = 'RWRqm6JoHvqrdEfQqx35Fl7AJp8pvrpeJ4aJkgakVN7ajwtJkMiWsYR9'
+    minisign_key = 'RWRp1ZcKwoEnV5nl5ZNhoySIJE6jWqXGZ5g7dQey9k0ZlI79df2G2Cxd'
     cache_file = 'dns-crypt2-eu-fast-resolvers.md'
 
 --
