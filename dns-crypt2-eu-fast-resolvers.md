@@ -4,11 +4,9 @@ To use that list, add this to the `[sources]` section of your
 `dnscrypt-proxy.toml` configuration file:
 
     [sources.'public-resolvers']
-    urls = ['https://raw.githubusercontent.com/SetSS/DNS-Data-Files/refs/heads/main/dns-crypt2-eu-fast-resolvers.md']
-    cache_file = 'dns-crypt2-eu-fast-resolvers.md'
+    urls = ['https://gist.githubusercontent.com/SetSS/020df039c0e73225f5aa40ad4e2ec093/raw/780d7aa33bb127bb3a425a7a99d3b96a80498e90/dns-crypt2-eu-fast-resolvers.md']
     minisign_key = 'RWTX7Hx8uhATWqY7jXKxod28czD6reBA8rHwGNPSuyPLkDnhMrvaG2Us'
-    refresh_delay = 72
-    prefix = ''
+    cache_file = 'dns-crypt2-eu-fast-resolvers.md'
 
 --
 
@@ -134,4 +132,4 @@ sdns://AQcAAAAAAAAADjM3LjIyOC4xMjkuMTYwIPlYPWSML8DlYbkp1ycL3CBER_3aJHp7GLvX_TRvb
 
 DoH | unicacast.uncensoreddns.org | 89.233.43.73 | /dns-query | public key 98cc4060d39c8329b62b6fbc7d0d6df9309869b981e7e6392d5cd8fa408f4d80e6a0f7f5af28807a1df5f7ce8af8a3f8527cc9d29fb4a7c4dbf540f38e632ea
 
-sdns://AgYAAAAAAAAADDg5LjIzMy40My43MaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
+sdns://AgYAAAAAAAAADDg5LjIzMy40My43MaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk%
